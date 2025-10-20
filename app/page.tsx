@@ -5,6 +5,4 @@ export default function Home() {
   // Redirige inmediatamente a /login
   redirect("/dashboard");
 
-  // Este return no se renderiza, pero Next lo requiere
-  return null;
 }
