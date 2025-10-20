@@ -8,8 +8,8 @@
     "build": "next build --no-lint",
     "start": "next start",
     "lint": "next lint",
-    "export": "next export",
-    "deploy": "gh-pages -d out"
+    "deploy": "gh-pages -d out",
+    "predeploy": "npm run build"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
