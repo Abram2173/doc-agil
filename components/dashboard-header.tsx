@@ -83,7 +83,7 @@ export function DashboardHeader({ userName, role }: DashboardHeaderProps) {
             variant="ghost"
             size="sm"
             className="gap-2 bg-white/10 text-white backdrop-blur-sm transition-all hover:bg-white/20 hover:scale-105 active:scale-95"
-            onClick={() => (window.location.href = "/login")}
+            onClick={() => (window.location.href = "/dashboard")}
           >
             <LogOut className="h-4 w-4" />
             <span className="font-semibold">Salir</span>
