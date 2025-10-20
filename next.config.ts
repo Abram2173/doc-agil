@@ -1,5 +1,4 @@
-import { NextConfig } from 'next';
-
+import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   output: 'export',
   basePath: '/doc-agil',
